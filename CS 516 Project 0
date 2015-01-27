@@ -3,6 +3,8 @@ CS 516 Project 0
 Xinyun Jiang
 NetID: xj19
 Jan 25 2015
+
+
 1.	Accumulo:
 Strengths (1):
 a.	Shared-Nothing (Scalability)
@@ -13,6 +15,8 @@ e.	Cell-Level Security promotes sharing
 Weakness (1):
 a.	Sorting induces write multiplication factor
 b.	Sparse induces support induces additional storage overhead
+
+
 2.	Actian Ingres
 Strengths (8, 29):
 a.	Hardware scalability
@@ -30,11 +34,15 @@ Weakness (8, 29):
 a.	Bad documentation system
 b.	Third part support is lacking
 c.	Only interface is through Erlang ODBC application
+
+
 3.	Actian Matrix
 Strengths (7):
 a.	Fast Analytics
 b.	Massive Scalability
 c.	Cost Efficient
+
+
 4.	Actian PSQL
 Strengths (3,4):
 a.	Large Database Features at an Affordable Price: Cost-effective PSQL offers full security, encryption, management and monitoring tools, plus a host of other features you would expect to see in much more expensive DBMS product
@@ -48,11 +56,15 @@ Weakness:
 a.	No default params in PSQL
 b.	No support bult into PSQL to create web-based procedures
 c.	Does not work well on windows
+
+
 5.	Actian Vector
 Strengths (6):
 a.	Able to run a workload on a server when other databases require a much larger machine
 b.	Cost Efficient
 c.	Process data much faster than most other relational databases due to exploits performance features in CPU that most other relational databases do not take advantage of
+
+
 6.	Actian Versant
 Strengths (5):
 a.	Does not require implementing any mapping code to persist or retrieve objects
@@ -61,12 +73,16 @@ c.	Minimal administration overhead
 d.	Efficient direct object storage
 e.	High speed navigation and retrieval
 f.	Data integrity
+
+
 7.	Adabas
 Strengths(2):
 a.	High performance regardless of platform
 b.	Cost effective, requiring limited hardware resources because its unique ability to compress data
 c.	Support a wide variety of data models which can add flexibility and performance
 d.	Provide direct access to ADABAS data via ODBC compliant desktop tools
+
+
 8.	Allegrograph
 Strengths (9):
 a.	Flexible and faster than RDBMSs: Add new predicates without changing any schema, ont-to-many relations are directly encoded without the indirection of tables
@@ -82,6 +98,8 @@ a.	Operations on large amounts of data could be slow
 b.	Could use a lot of space
 c.	Not widely used in business environment
 d.	Could describe data inconsistently which reduce usefulness of databse
+
+
 9.	Altibase HDB
 Strengths (11, 12):
 a.	several times faster than the leading in-Memory only databases
@@ -94,6 +112,8 @@ g.	Reduced operational costs and human resources
 Weakness (13):
 a.	Not designed for storing the structured data since based on in-memory database, designed for unstructured data that might cause data loss
 b.	Product maturity is low: Pre-production versions without any standards
+
+
 10.	Altibase XDB
 Strengths (14):
 a.	Altibase XDB is the world’s fastest in-memory only database
@@ -105,11 +125,15 @@ f.	Support for all common data types
 Weakness (13):
 a.	Not designed for storing the structured data since based on in-memory database, designed for unstructured data that might cause data loss
 b.	Product maturity is low: Pre-production versions without any standards
+
+
 11.	Apache Drill
 Strengths (15):
 a.	ability to handle nested data such as JSON, Protobuf, Parquet
 b.	Highly extensible architecture to provide the widest benefit for multiple communities
 c.	Advanced cost-based optimizer
+
+
 12.	Apache Hive
 Strengths (16, 17):
 a.	Developer productivity
@@ -125,6 +149,8 @@ c.	No support for update and delete
 d.	No support for singleton inserts. Data is required to be loaded from a file using LOAD command
 e.	No access control implementation
 f.	Correlated sub queries are not supported
+
+
 13.	Apache Storm
 Strengths (18):
 a.	Massive scalability
@@ -132,6 +158,8 @@ b.	High fault-tolerance
 c.	Rich array of available sprouts specialized for receiving data from all types of sources
 d.	Easily interoperate with Hadoop
 e.	Support for Multilanguage programming
+
+
 14.	Apache Tajo
 Strengths (19):
 a.	Powerful distributed processing architecture
@@ -146,6 +174,8 @@ i.	Stable, fault-tolerant execution of demanding, real-world queries and ETL job
 j.	Seamless, industry-standard ANSI SQL capabilities
 k.	Time-saving extensible query re-write engine
 l.	Compatibility with legacy BI tools via ODBC/JDBC
+
+
 15.	ArangoDB
 Strengths (21):
 a.	Multi-model database - Model your data using flexible combinations of key-value pairs, documents and graphs
@@ -158,6 +188,8 @@ g.	Multi-platform - Runs on Windows, Linux, OSX and even Raspberry Pi.
 Open source and free - ArangoDB is available under the Apache 2 license
 Weakness (21):
 a.	It’s new born baby. Need to wait and watch since there were some interesting active developments going on
+
+
 16.	AWS DynamoDB
 Strengths (22):
 a.	Scalable – There is no limit to the amount of data you can store in an DynamoDB table, and the service automatically allocates more storage, as you store more data using the DynameDB write APIs
@@ -179,6 +211,8 @@ i.	No support for atomic transactions – Each write operation is atomic to an i
 j.	Additional storage cost for each item – In computing the storage used by the table. 
 k.	No triggers
 l.	No Foreign Keys
+
+
 17.	AWS ElastiCache
 Strengths (23):
 a.	Easy to setup and use
@@ -187,6 +221,8 @@ Weakness (23):
 a.	It is unreliable – you can lose your data in each one of the following events: a node failure; a scaling event; a process restart; a software upgrade
 b.	The Jave Client with a single DNS solution uses proxy and adds latency
 c.	It is expensive, it costs 30% over a plain instance and you need to pay for the entire instance memory even if you use part of it. You also cannot deploy more than one Memcached bucket over the same instance
+
+
 18.	AWS ElastiCache with Redis
 Strengths (24):
 a.	Offers persistence to disk
@@ -194,6 +230,8 @@ b.	Offers extra data structures
 c.	Very fast
 Weakness (24):
 a. Single-threaded and event driven
+
+
 19.	AWS EMR
 Strengths (25):
 a.	Easy to Use - You can launch an Amazon EMR cluster in minutes. You don’t need to worry about node provisioning, cluster setup, Hadoop configuration, or cluster tuning. Amazon EMR takes care of these tasks so you can focus on analysis 
@@ -202,6 +240,8 @@ c.	Low Cost - You can launch a 10-node Hadoop cluster for as little as $0.15 per
 d.	Reliable - You can spend less time tuning and monitoring your cluster. Amazon EMR has tuned Hadoop for the cloud; it also monitors your cluster —retrying failed tasks and automatically replacing poorly performing instances.
 e.	Secure - Amazon EMR automatically configures Amazon EC2 firewall settings that control network access to instances, and you can launch clusters in an Amazon Virtual Private Cloud (VPC), a logically isolated network you define. 
 f.	Flexible - You have complete control over your cluster. You have root access to every instance, you can easily install additional applications, and you can customize every cluster. Amazon EMR also supports multiple Hadoop distributions and applications.
+
+
 20.	AWS RDS
 Strengths (25):
 a.	Less Administration: Given the backup, failover and scaling capabilities of RDS, smaller organizations might postpone the inevitable hiring of an expensive, full time DBA
@@ -213,6 +253,8 @@ a.	Databases don’t run themselves: At a certain stage of growth, the performan
 b.	Roadblocks:  Advanced diagnostic functionality my be buried with the RDS API, which could hinder an experienced DBA who is comfortable with traditional unix tools such as netstat, df, iostat, tcpdump, lsof, sar, etc.
 c.	Replication: At this time, region->region replication is NOT supported by Mysql on RDS. Nor is logshipping. zone->zone replication is supported by Multi-AZ internally for inter-zone failover, and read slaves are provided per availability zone to offload read-only queries
 d.	Application considerations: Major modifications to your app may be costly or time prohibitive. You won’t know if your code works until you test it.
+
+
 21.	AWS Redshift
 Strengths (26):
 a.	Scarily fast
@@ -225,6 +267,8 @@ a.	Doesn't enforce uniqueness. This means you'll have to be very diligent about 
 b.	Very fast, but not fast enough for most web apps. This means you'll have to pull data into a caching layer, or a vanilla postgres instance if you want to serve web apps with data from Redshift.
 c.	Loading data - the fastest way to do this to take advantage of Massively Parallel Processing (what a great buzzword) is to load in from S3. Alternatively, can do JDBC inserts, but these can't be parallelised. Ties you into the AWS stack more.
 d.	Difference from vanilla SQL - I don't necessarily view this as a bad thing, but you'll have to get your head around how to optimise the distribution of your data around the nodes using DISTKEYS, and check that you have appropriate compression on your columns. You also can't alter the datatypes of a column in a table after they've been set, which can be annoying
+
+
 22.	AWS Simple DB
 Strengths (27):
 a.	SimpleDB is not a relational database. Relational databases are too complex and don't scale well. Keeping data access simple is a selling point, not a weakness
@@ -242,6 +286,8 @@ c.	Database is a core competency. If you don't control your database you can't o
 d.	When your database is out of your control you can't guarantee it will work properly. You can't create the proper indexes and other optimizations
 e.	No join or IN operator. You'll need to do multiple client side calls to simulate joins, which will be slow
 f.	No stored procedures, referential integrity, and other relational goodies. This is not a professional product
+
+
 23.	Azure DocumentDB
 Strengths (28):
 a.	No Schema: Stored data don’t need to have a predefined data
@@ -250,6 +296,8 @@ c.	Consistency: All the time, we have 3 copies or our database in the same data 
 Weakness (28):
 a.	Transactions cross collections: cannot have a transaction on multiple collections
 b.	No versioning support
+
+
 24.	BerkeleyDB
 Strengths (29):
 a.	Good for term storage
@@ -259,6 +307,8 @@ a.	Does not support constraints
 b.	Application involvement needed for replication
 c.	Limited in size capabilities
 d.	Lots of things left to the using application
+
+
 25.	BigCache
 Strengths (30):
 a.	In Memory is ultra fast (of course)
@@ -268,11 +318,15 @@ d.	S3 and SimpleDB were similar when retreiving directly by key/id, but both wer
 Weakness (30):
 a.    only 10 different objects to see if S3 did any caching on recently retrieved items
 b.    the following scenario is an alternative that gives you the ultra fast memory/disk combo for your local cache and the slower S3 as the global shared cach
+
+
 26.	BigMemory
 Strengths (31):
 a.	Cross Language Client Support: access to BigMemory data from multiple client platforms
 b.	Multi-data center support: WAN data replication to keep data in sync across regions while offering support for disaster recovery
 c.	Support for extended hybrid storage: leverages SSD & Flash technologies in addition to DRAM
+
+
 27.	BitYota
 Strengths (32):
 a.	Source data is not frequently changing
@@ -284,6 +338,8 @@ f.	Data sources generate large data volumes every minute/hour, and analysis is r
 g.	There are multiple sources with different characteristics in terms of volume, multiple data formats and speed of new data
 h.	It is critical to discovery value of business metrics over raw data to find new metrics for new initiatives such as marketing promotions, usage of new product features, etc
 i.	Faster availability of data for analytics
+
+
 28.	Cassandra
 Strengths (33, 34):
 a.	Highly scalable and highly available with no single point of failure
@@ -313,6 +369,8 @@ e.	CDH uses the open source Oozie framework for workflow management. EMR impleme
 f.	CDH uses the open source Hue framework for its user interface. If you require new features from your web interface, you can easily implement them using the Hue SDK.
 g.	CDH includes a number of integrations with other software components of the data management stack, including Talend, Informatica, Netezza, Teradata, Greenplum, Microstrategy, and others
 h.	CDH has been designed and deployed in common Linux environments and you can use standard tools to debug your programs
+
+
 30.	CortexDB
 Strengths (37):
 a.	Flexibility to change the database schema as required by business departments and software development the system adapts to the process rather than the other way round
@@ -320,6 +378,8 @@ b.	Extremely high database performance on standard hardware
 c.	Rapid and agile application development across innovative data services without programming
 d.	Simple modeling of complex structures
 e.	Change requests on the fly, enabling self-service usage by business unites
+
+
 31.	CouchDB
 Strengths (38):
 a.	Master-Master Replication – Because of the append only style of commits
@@ -327,6 +387,8 @@ b.	Reliability of the actual data store backing the DB
 c.	Mobile platform support. CouchDB actually has installs for iOS and Android
 Weakness (38):
 a.	HTT REST JSON interaction only, no binary protocol
+
+
 32.	DataStax Enterprise
 Strengths (39, 40): 
 a.	Internal and external authentication for database access
@@ -334,6 +396,8 @@ b.	Granular permission control for database changes
 c.	Transparent encryption for enhanced file protection
 d.	Advanced data auditing capabilities
 e.	Client to node encryption that safeguards data in transit
+
+
 33.	Datomic
 Strengths (41): 
 a.	Datalog is very enjoyable to work with in this s-expression form. Much, much better than SQL. It's by far my favorite part
@@ -342,6 +406,8 @@ Weakness (41):
 a.	The exceptions thrown by Datomic are rubbish. You'll get NullPointerExceptions and IndexOutOfBoundsExceptions when not passing any nils/nulls or performing any indexing. Sometimes it just throws bare Exceptions, even though the source throw had more information (i.e. Lucene's ParseException)
 b.	The full-text search is nice to have but Lucene's functionality isn't exposed enough to really take advantage of it. For example, search results aren't ranked
 c.	Documentation and examples focus mostly on the Java API. I understand the business reason for doing this, but I'm using it entirely from Clojure. The documentation is generally pretty thin overall.
+
+
 34.	Drizzle
 Strengths (42, 43): 
 a.	Special defense stat which means it can survive most super-effective special attacks
@@ -352,6 +418,8 @@ e.	Works effectively on all rain teams
 Weakness (42): 
 a.	Not the greatest movepool
 b.	Not great defense stat means it can easily OHKO’d by a physical move
+
+
 35.	Exasol
 Strengths (44): 
 a.	Fewer collisions with parallel transactions
@@ -360,6 +428,8 @@ c.	Every modification can be rolled back
 Weakness (44): 
 a.	Some changes cannot be rolled back and immediately impact other users or processes
 b.	Higher probability of transaction conflicts
+
+
 36.	FathomDB
 Strengths (45):
 a.	FathomDB leverages MySQL’s scaling capabilities across multiple machines and automated backup can make it a reliable Cloud storage. Since standard MySQL is offered as an engine, you do not have to change your application at all, and there is no lock-in or new API to learn.
@@ -369,6 +439,8 @@ d.	FathomDB allows complex database operations to happen according to user-confi
 e.	Finally, FathomDB enables companies to store their database on Amazon or Rackspace servers.
 Weakness (45): 
 a.	there are possible challenges that a company may face when starting database implementation in the Cloud. Particularly, it is the changing of a database instance’s size, which may sometimes involve restarting MySQL and even moving to a new serve
+
+
 37.	Firebird
 Strengths (46):
 a.	In testing with smaller databases weve found in most cases Firebird is only slightly slower than SQL server with all hardware being equal.  However much depends on the exact operation being performed, how much data is in your database, and your hardware
@@ -383,6 +455,8 @@ a.	Slower under heavy loads:  If for example, you were to display a huge list of
 noticeably faster.  On the other hand when doing normal work in AyaNova entering work orders, printing them etc there is no significant difference
 b.	It's open source free software, for some that is a bonus, others may find that worrisome.  We're not normally great proponents of free software for obvious reasons, but we did look at both commercial and open source alternatives to offer with MS-SQL server and it was technically the best match for the requirements of AyaNova
 c.	Slower performance has been noted if hyperthreading is used, or dual processors in some cases. Recommended to compare with or without to see what works best for you
+
+
 38.	FoundationDB
 Strengths (47):
 a.	We already use it in several other services (we have experience of it)
@@ -402,6 +476,8 @@ d.	Cannot run in multiple AppDomains on same process
 e.	Like Raven, also an Alpha product, though we have less concerns about the composition of the development team
 f.	Does not generate IDs, so a separate “ID Generation Service” would be required (or switch entire platform to GUIDs with the resulting data migrations
 g.	No nice ‘management’ interface - you need to roll your own admin tool
+
+
 39.	Galera
 Strengths (48):
 a.	A high availability solution with synchronous replication, failover and resynchronization
@@ -414,6 +490,8 @@ Weakness (48):
 a.	It supports only InnoDB
 b.	With increasing number of writeable masters, the transaction rollback rate may increase, especially if there is write contention on the same dataset. This increases transaction latency.
 c.	It is possible for a slow/overloaded master node to affect performance of the Galera Replication cluster, therefore it is recommended to have uniform servers across the cluster.
+
+
 40.	RavenDB
 Strengths (47):
 a.	Excellent .NET client API with extensibility points, providing easy
@@ -432,12 +510,16 @@ b.	Some concerns over the dependence of the RavenDB project on one key developer
 c.	Some concerns about the robustness of the testing of the product and its unproven track record in enterprise solutions (posts like this are easy to find
 d.	Yet another product for devops to support
 e.	Need to understand the “eventually consistent” model well when designing solutions
+
+
 41.	GenieDB
 Strengths (49):
 a.	Performance: GenieDB provides instantaneous data consistency, so your application always reads the most current data
 b.	Ease of Use: Providing a well-known SQL interface and automatic node provisioning means spending less time retraining your technical staff and allowing more time for them to solve business critical issues.
 c.	Resilience: With an automated self-healing algorithm, GenieDB recovers from faults with little effort.
 d.	Cost Efficiency: You can realize the benefits of GenieDB on your existing hardware without any application changes.
+
+
 42.	Google App Engine Datastore
 Strengths (49):
 a.	No need to buy servers or server space – no maintenance
@@ -446,6 +528,8 @@ c.	Free up to a certain level of consumed resources
 Weakness (49):
 a.	Java applications cannot create new threads
 b.	Developers have read-only access to the filesystem on App Engine
+
+
 43.	Google Cloud Datastore
 Strengths (50):
 a.	More sophisticated key-valueish store with built-in transaction support and entity hierarchy
@@ -453,6 +537,8 @@ b.	Don’t need to worry about the capacity of the system
 c.	Automatically scales to data size and access patterns
 Weakness (50):
 a.	Documention and language support is not very uniform
+
+
 44.	Handlersocket
 Strenghts (50, 51):
 a.	Stable
@@ -466,6 +552,8 @@ a.	No security – Without username and password
 b.	Do not update MySQL Query Cache – Fixed in recent commits
 c.	No “Insert…on duplicated key update…”
 d.	Do not support auto increment column while inserting – Fixed in recent commits
+
+
 45.	Hbase
 Strenghts (52):
 a.	High volumn data random access
@@ -478,6 +566,8 @@ b.	Data loss risk
 c.	Redesign data schema
 d.	Lacking of aggregate function
 e.	No commercial support now
+
+
 46.	Heroku Postgres
 Strenghts (53):
 a.	Not having to worry about managing your infrastructure
@@ -488,6 +578,8 @@ a.	Rarely-accessed free apps take a few seconds (sometimes longer) to start up �
 b.	Ephemeral file system (files may be written to the app’s “tmp/” directory, but can be discarded by the system at any time) — use a cloud storage service instead
 c.	Not optimal for large static assets — use a CDN instead
 d.	Runs only on AWS in the US East region (meaning there’s no regional redundancy, so an outage is an outage, and traffic from Japan will experience higher latency rates than traffic from the States).
+
+
 47.	Hortonworks
 Strengths (55):
 a.	A spin-off Yahoo product, so it’s been tested in the marketplace
@@ -497,6 +589,8 @@ d.	Scalable to meet the demands of specific projects
 e.	Offers variations and expanded product offerings from partnerships with a number of specialized companies.
 Weakness (55):
 a.    Product is similar in nature to Cloudera and provides similar features
+
+
 48.	HP Vertica
 Strengths (55):
 a.	Cheap - the cheapest of all three appliances we own
@@ -515,6 +609,8 @@ f.	Indexes and general database practices for optimized querying are not properl
 g.	Most of the times segmentation does not help as when data needs group by the data will be redistributed from multiple nodes and that might be a bottleneck
 h.	No configuration options for limiting database size, resource usage, etc
 i.	Finally not so great for bigger organizations looking for the single point of source of data warehouse. Can be used for small data marts with small set of questions to be answered with lots of storage at your disposal.
+
+
 49.	HypergraphDB
 Strenghts (56):
 a.	Implicit graph indexing of everything
@@ -524,6 +620,8 @@ Weakness (56):
 a.	Waste of storage if not many duplicates
 b.	Slower writes to ensure uniqueness
 c.	Slow reads on deep trees, with few duplicates and frequent cache misses
+
+
 50.	IBM BigInsights
 Strenghts (57):
 a.	Offers superior monitoring that can provide a better understanding of data distribution and processing – essential for achieving increased performance
@@ -534,6 +632,8 @@ a.	New to the marketplace so has a limited reputation
 b.	An expensive solution for small/medium size organizations
 c.	24×7 support is only available on the paid version of the application
 d.	Requires an enormous amount of disk space to install (25GB), compared to similar products
+
+
 51.	IBM DB2
 Strengths (58):
 a.	Very high degree of availability
@@ -543,6 +643,8 @@ Weakness (58):
 a.	High cost
 b.	Specialized hardware required
 c.	Specailized skill needed to implement
+
+
 52.	InfiniteGraph
 Strengths (59):
 a.	Extremely fast for connected data
@@ -552,6 +654,8 @@ d.	Simple data model
 Weakness (59):
 a.	May not support distribution or sharding
 b.	Requires conceptual shilft, a different way of thinking
+
+
 53.	InfluxDB
 Strengths (60):
 a.	Really fast to display
@@ -561,6 +665,8 @@ Weakness (60):
 a.	Harder to setup than an ELK stack
 b.	Need to define all continuous queries to be able to use them after
 c.	Cluster support not ready yet
+
+
 54.	Infobright
 Strengths (61):
 a.	Fastest Bulkloader
@@ -568,6 +674,8 @@ b.	Very good compression ratio
 Weakness (61):
 a.	Bulkloader swallows errors as a trade off for faster loading
 b.	Per TB pricing structure
+
+
 55.	LevelDB
 Strengths (62):
 a.	richness and a more flexible RAM requirement
@@ -586,11 +694,15 @@ e.	Uses Snappy compression to reduce the on disk size of index entries
 f.	Optional Snappy compression of data logs.
 g.	A send to a composite destination only stores the message on disk once.
 h.	Faster and more frequent data file GCs.
+
+
 56.	Loggly
 Strengths (62):
 Whereas Sumo Logic has a strong enterprise and security focus, Loggly is geared more towards helping devops find and fix operational problems. This makes it very developer-friendly. Things like creating custom performance and devops dashboards are super-easy to do. Pricing is also transparent, which makes start of use easier
 Weakness (62):
 Don’t expect Loggly to scale into a full blown infrastructure, security or analytics solution. If you need forensics or infrastructure monitoring you’re in the wrong place. This is a tools mainly for devops to parse data coming from your app servers. Anything beyond that you’ll have to build yourself
+
+
 57.	Lotus Notes
 Strengths (62):
 a.	includes diary, calendar, email, to-do list
@@ -603,6 +715,8 @@ a.	Notes is a clunky looking interface similar to Outlook 97
 b.	Navigation is awkward (think Netscape browser from the 90′s)
 c.	Any type of workgroup creation, e-mail addition, or changes requires a technical administrative support person.  This is the biggest negative.  Out of the box, Lotus needs a lot of manipulation.
 d.	Domino and Lotus Notes must be constantly updated and backed up for optimal processing (not as crucial with Outlook and Exchange Server).
+
+
 58.	Lucene/Solr
 Strengths (63):
 a.	Bigger Community
@@ -615,6 +729,8 @@ g.	Spellchecking
 Weakness (63):
 a.	need a schema
 b.	No routing magic
+
+
 59.	LucidDB
 Strengths (64):
 a.	Warehouse Labels
@@ -624,6 +740,8 @@ d.	Strong Mondrian and Pentaho integration
 e.	Extendible
 Weakness (64):
 a.    Small company
+
+
 60.	MariaDB
 Strengths (65):
 a.	XtraDB
@@ -633,6 +751,8 @@ Weakness (65):
 a.	No support for multi-threaded replication
 b.	No optimizations for ORDER by nidxol LIMIT N
 c.	New version incompatible with MySQL
+
+
 61.	Memcached
 Strengths (66):
 a.	Low complexity
@@ -650,6 +770,8 @@ b.	Caches sharded by client do not scale across AWS zones
 c.	Unbalanced memcached clusters require a full system restart
 d.	Adding a member to the pool requires reconfiguring and rebooting the client
 e.	Seriously doesn't do anything besides be an in-memory key/value store
+
+
 62.	MemSQL
 Strengths (67):
 a.	Blazing fast
@@ -657,6 +779,8 @@ b.	You can use all the MySQL client tools out there. Also because it uses MySQL,
 Weakness (67):
 a.	Huge cache folder! After restoring the database (15Mb) MemSQL creates a folder in the plancache folder which is 5.5GB. So performance comes with a price I think.
 b.	Unable to create users. When creating the database, I tried to add a new user but this isn’t supported. Maybe this is because I’m using the Developer Edition.
+
+
 63.	Microsoft HD Insight
 Strengths (68):
 a.	Scalable
@@ -666,6 +790,8 @@ d.	Integration with a lot of external libraries and systems
 Weakness (68):
 a.	Start/Stop features is not yet supported
 b.	Elastic-scale is not yet supported
+
+
 64.	MongoDB
 Strengths (69):
 a.	Schema-less. If you have a flexible schema, this is ideal for a document store like MongoDB. This is difficult to implement in a performant manner in RDBMS
@@ -678,6 +804,8 @@ b.	Less flexibity with querying (e.g. no JOINs)
 c.	No support for transactions - certain atomic operations are supported, at a single document level
 d.	At the moment Map/Reduce (e.g. to do aggregations/data analysis) is OK, but not blisteringly fast. So if that's required, something like Hadoop may need to be added into the mix
 e.	Less up to date information available/fast evolving product
+
+
 65.	MySQL
 Strengths (69):
 a.	Somewhat lighter-weight
@@ -691,6 +819,8 @@ b.	MyISAM tables only do table-level locking, so concurrency is bollocks
 c.	This noted, MyISAM is the default if you don't specify an engine at table-creation time, so it's easy for an inexperienced developer to go down the MyISAM path
 d.	Last I checked, subquery performance in MySQL was pretty awful
 e.	Triggers are perverse
+
+
 66.	MySQL Cluster
 Strengths (70):
 a.	True HA by design – Fast recovery
@@ -704,6 +834,8 @@ b.	Size constraints as wel as hardware limits
 c.	Higher cost/byte
 d.	Requires reasonable data partitioning
 e.	Higher complexity
+
+
 67.	Neo4J
 Strengths (71):
 a.	No O/R impedance mismatch
@@ -714,6 +846,8 @@ Weakness (71):
 a.	Lacks in tool and framework support
 b.	No other implementations – potential lock in
 c.	No support for ad-hoc queries
+
+
 68.	ObjectRocket
 Strengths (72):
 a.	High Availability - Every instance comes automatically configured with a secondary node and free backups. Should a primary node fail, the system seamlessly fails over to the secondary node
@@ -721,6 +855,8 @@ b.	Fully Managed Service with 24x7 Expert Support - ObjectRocket for Redis is ba
 c.	Simplified Operations - One click provisioning, standardized configurations and advanced administration capabilities make it easy for developers to focus on building their product while leaving the tasks of maintaining, scaling and supporting Redis to the experts.
 d.	High Performance - Optimized specifically for Redis, ObjectRocket for Redis uses a containerized approach that eliminates the noisy neighbor issues associated with traditional virtualization. Like all of the company's offerings, ObjectRocket for Redis was built from the ground up for performance, from the network to the OS to Redis itself. ObjectRocket for Redis was designed holistically to provide the best possible performance.
 e.	High Bandwidth - By directly peering with multiple networks, it doesn't matter where customers host their application -- ObjectRocket for Redis is only a few milliseconds away. So customers can host their applications where they want and leave the database work to ObjectRocket
+
+
 69.	Oracle Coherence
 Strengths (73):
 a.	Elastic. Just add nodes. Auto-discovery. Auto-load-balancing. No data loss. No interruption. Every time you add a node, you get more data capacity and more throughput.
@@ -733,6 +869,8 @@ g.	Easy to integrate with a database via read-through, read-ahead, write-through
 Weakness (73):
 a.	As of Coherence 12.1.2, the cache itself is not persistent
 b.	Expensive
+
+
 70.	Oracle Exadata
 Strengths (74):
 a.	remote real-time monitor of system
@@ -740,6 +878,8 @@ b.	proactive maintenance and alerting
 c.	online patching, almost no down time
 Weakness (74):
 a.    Expensive
+
+
 71.	Oracle NoSQL
 Srengths (75):
 a.	Non-Relational means table-less: NoSQL databases are non-relational, hence, very different from SQL databases. This means they are easier to 
@@ -752,6 +892,8 @@ a.	Lack of community: NoSQL is relatively new and lacks a healthy community. Mea
 b.	Lack of reporting tools: A major problem with NoSQL databases is the lack of reporting tools for analysis and performance testing. However, with MySQL, you can find a wide array of reporting tools to help you prove your application’s validity
 c.	Doesn’t conform to ACID properties: Relational database systems function on the ACID paradigm (Atomicity, Consistency, Isolation, Durability). NoSQL databases don’t
 d.	Lack of standardization: In order for NoSQL to grow, it needs a standard query language like SQL. This is a major issue highlighted by researchers at Microsoft, who claim that NoSQL’s lack of standardization can cause a problem during migration. Besides this, standardization is important for the database industry to unify itself in future.
+
+
 72.	PostgresSQL
 Strengths (76):
 a.	Very feature rich: GIS add-on functionality; Flexible full-text search (brought into mainline in 8.2); Multiple replication options to suit your environment and requirements; Powerful server-side procedural languages are available, and can be extended (PL/pgSQL is installed by default, but others like Perl, Python, Ruby, TCL, etc are available); Writing your own extensions is pretty easy
@@ -764,6 +906,8 @@ Weakness (76):
 a. Less-mature replication software
 Strengths (76):
 Weakness (76):
+
+
 73.	Oracle NoSQL
 Strengths (40):
 a.	Commercial-Grade Software and Support: Oracle NoSQL Database is fast, scalable, reliable, and easy to install and configure. Backed by Oracle Support, Oracle NoSQL Database also offers customers a single point of contact for trouble-shooting issues and maintaining continuous availability of critical database instances
@@ -774,6 +918,8 @@ Weakness (13):
 a.	Few firms offring support for NoSQL
 b.	NoSQL databases offer few facilities for ad-hoc query and analysis
 c.	Extremely difficult to find competent NoSQL experts
+
+
 74.	Impala
 Strengths (20):
 a.	Lighting speed and promise near real time adhoc query processing
@@ -781,6 +927,8 @@ b.	The computation happen in memory, that reduce enormous amount of latency and 
 Weakness (20):
 a.	No fault tolerance for running queries
 b.	If a query failed on a node, the query has to be reissued, it can not resume from where it fails
+
+
 75.	Presto
 Strengths (20):
 a.	Lighting fast and promise near real time interactive querying
@@ -793,6 +941,8 @@ b.	it’s new born baby. Need to wait and watch since there were some interestin
 c.	As of now support only Hive managed tables
 d.	Though the website claim one can query hbase also, the feature still under development
 e.	Still no UDF support yet, This is the most requested feature to be added
+
+
 76.	Teradata Aster
 Strengths (35):
 a.	Relatively new but seems to be the first one to bring Map-reduce (hadoop etc) world's best features into SQL
